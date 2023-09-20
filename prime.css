@@ -1,0 +1,222 @@
+.txt {
+    color: white;
+}
+.navbar{
+    position: fixed;
+}
+.zone1{
+    margin-top: 50px;
+    height:600px;
+}
+.zone2{
+    height: 550px;
+    /* border: 2px solid rgb(0, 0, 0); */
+
+
+
+}
+
+.poster1 {
+    /* height: 600px; */
+    background-image: url(./images/cool-hd-john-wick-and-guns-fkurzl5x5t5vakvg.jpg);
+    background-size: 100% 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border: 2px solid black; */
+
+}
+
+.poster2 {
+    /* height: 600px; */
+    background-image: url(./images/aveng12.gif);
+    background-size: 100% 100%;
+    /* border: 2px solid black; */
+
+}
+
+.login {
+    color: white;
+}
+
+.poster3 {
+    /* height: 550px; */
+    background-image: url(./images/prime1.jpg);
+    background-size: 100% 100%;
+}
+
+.rentnow {
+    background-color: rgb(0, 0, 0);
+    background-image: linear-gradient(to right, rgba(30, 133, 30, 0), rgb(23, 194, 224));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.zone32 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.zone31 {
+    font-family: 'Work Sans', sans-serif;
+    font-size: 24px;
+    padding: 50px;
+
+}
+
+.types {
+    
+    margin: 5px;        
+}
+.types img {
+    height: 139px;
+    width: 203px;
+
+
+}
+.types:hover{
+    box-shadow: 0px 0px 7px 7px rgb(75, 78, 78);
+    transform: scale3d(1.1,1.1,1.1);
+    transition: all 1s;
+
+
+}
+
+.zone41{
+    background-image: url(./images/firestick.webp);
+    background-size: 100% 100%;
+}
+.zone42{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 25px;
+    background-image: linear-gradient(to bottom, rgb(22, 21, 21),rgb(63, 62, 62));
+    color: white;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.zone52{
+    background-image: url(./images/cartoon.webp);
+    background-size: 100% 100%;
+
+}
+.zone51{
+    font-family: 'Work Sans', sans-serif;
+    font-size: 25px;
+    background-image: linear-gradient(to right, rgb(70, 68, 68),rgb(0, 0, 0));
+    color: white;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+.zone6{
+    background-color: rgb(61, 60, 60);
+    justify-content: center;
+    text-align: center;
+    padding-top: 30px;
+}
+.oriprime{
+    /* height: 30px; */
+    width: 120px;
+    align-self: center;
+}
+.fonta{
+    font-size: 30px;
+    text-align: center;
+    padding: 7px;
+    
+}
+@media only screen and (max-width:850px){
+    .zone1{
+        height: 400px;
+    }
+    .zone2{
+        height: 400px;
+    }
+    .zone31{
+        width: 100%;
+    }
+    .zone32{
+        width:100%;
+    }
+    .zone41{
+        height: 300px;
+        width: 30%;
+    }
+    .zone42{
+        height: 300px;
+        width: 70%;
+        font-size: 13px;
+        padding: 20px;
+    }
+    
+    .zone51{
+        height: 300px;
+        width: 60%;
+        font-size: 17px;
+        
+    }
+    .zone52{
+        height: 300px;
+        width: 40%;
+    
+    }
+    
+
+
+}
+
+@media only screen and (max-width:600px){
+    
+    .zone1{
+        height: 270px;
+    }
+    .zone2{
+        height: 280px;
+    }
+    .zone31{
+        font-size: 20px;
+
+    }
+    .zone41{
+        height: 320px;
+        width: 100%;
+    }
+    .zone42{
+        height: 320px;
+        width: 100%;
+        font-size: 15px;
+        padding: 20px;
+    }
+   
+    .zone51{
+        height: 300px;
+        width: 100%;
+        font-size: 17px;
+        padding: 20px;
+        
+    }
+    .zone52{
+        height: 350px;
+        width: 100%;
+    
+    }
+    .types img{
+        height: 100px;
+        width: 150px;
+
+    }
+    
+
+
+}
